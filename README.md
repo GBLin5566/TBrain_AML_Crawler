@@ -1,2 +1,2 @@
-# TBrain_AML_Crawler
+# TBrain AML Crawler
 Crawler for TBrain AML contest.

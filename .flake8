@@ -1,0 +1,21 @@
+[flake8]
+max-line-length = 100
+ignore =
+    E125,E121,E266,
+    # Django id is a commen convention
+    A002,A003,
+    # print is allowed
+    T001, T003,
+    C901, C816
+exclude =
+    .git
+    __pycache__
+    # virtual environment
+    .venv/
+    venv/
+    env/
+    # __init__s usually have pre-imported modules
+    */__init__.py
+    tests/*/__init__.py
+max_complexity = 10
+statistics = true
